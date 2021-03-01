@@ -9,6 +9,7 @@ import java.net.Socket;
    服务端 服务器类
  */
 public class EchoServer {
+    //服务器使用的类
     private ServerSocket serverSocket;
     public EchoServer(int port) {
         try {
